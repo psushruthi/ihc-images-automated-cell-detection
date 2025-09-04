@@ -22,12 +22,12 @@ I built this pipeline to streamline the IHC workflow directly inside **Imaris**:
    Load `.ims` images into Imaris. Each dataset contains multiple channels (DAPI, GFAP, IBA1, NeuN).
 
 2. **Colocalization**  
-   - The script (`koobanalysis.py`) creates binary **colocalized channels** (e.g., GFAP ∩ DAPI, IBA1 ∩ DAPI) for hippocampus and cortex.  
+   - The script [`koobanalysis.py`](https://github.com/psushruthi/ihc-images-automated-cell-detection/blob/main/Scripts/koobanalysis.py) creates binary **colocalized channels** (e.g., GFAP and DAPI, IBA1 and DAPI) for hippocampus and cortex.  
    - Thresholds are defined in the scripts and can be adjusted per image to reduce background noise.  
    - The new channels are added back into the Imaris scene for visualization.
 
 3. **Surface Detection**  
-   - Scripts (`gfapsurfaces.py`, `iba1surfaces.py`, `neunsurfaces.py`) run **surface detection** on the colocalized channels.  
+   - Scripts ([`gfapsurfaces.py`](https://github.com/psushruthi/ihc-images-automated-cell-detection/blob/main/Scripts/gfapsurfaces.py), [`iba1surfaces.py`](https://github.com/psushruthi/ihc-images-automated-cell-detection/blob/main/Scripts/iba1surfaces.py), [`neunsurfaces.py`](https://github.com/psushruthi/ihc-images-automated-cell-detection/blob/main/Scripts/neunsurfaces.py)) run **surface detection** on the colocalized channels.  
    - Parameters for smoothing, seed points, and intensity are kept consistent across animals.  
 
 4. **Execution**  
@@ -44,7 +44,7 @@ I built this pipeline to streamline the IHC workflow directly inside **Imaris**:
 ---
 
 ## Results
-- The file **`Results/KOOB Analysis.xlsx`** contains surface counts and thresholds used for each animal.  
+- The file [`Results/KOOB Analysis.xlsx`](https://github.com/psushruthi/ihc-images-automated-cell-detection/blob/main/Results/KOOB%20Analysis.csv) contains surface counts and thresholds used for each animal.  
 - This ensures transparency in parameter selection and reproducibility across runs.  
 - The results can be directly compared across cohorts (sex, genotype, diet, etc.) to evaluate staining differences.  
 
@@ -75,5 +75,5 @@ GitHub: https://github.com/psushruthi/ihc-images-automated-cell-detection
 
 ## Contact
 
-For questions or suggestions, please contact [Sushruthi Panakanti](https://github.com/psushruthi) at [spanakan@iu.edu](spanakan@iu.edu)
+For questions or suggestions, please contact [Sushruthi Panakanti](https://github.com/psushruthi) at [spanakan@iu.edu](spanakan@iu.edu).    
 Thank you.
