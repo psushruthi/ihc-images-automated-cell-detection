@@ -9,9 +9,9 @@ The project focuses on KOOB analysis of mouse brain sections, automating the det
 ---
 
 ## Study Context
-The KOOB analysis investigates astrocytic (GFAP), microglial (IBA1), and neuronal (NeuN) markers in Alzheimer’s disease models.  
-Traditionally, these markers are quantified manually, which is time-consuming and inconsistent.  
-This pipeline reduces subjectivity by automating the workflow within Imaris, while still allowing flexibility to adjust thresholds for individual images where staining differences occur.  
+The KOOB analysis investigates astrocytic (GFAP), microglial (IBA1), and neuronal (NeuN) markers in Alzheimer’s disease models.   
+
+Traditionally, these markers are quantified manually, which is time-consuming and inconsistent. This pipeline reduces subjectivity by automating the workflow within Imaris, while still allowing flexibility to adjust thresholds for individual images where staining differences occur.  
 
 ---
 
@@ -76,4 +76,5 @@ GitHub: https://github.com/psushruthi/ihc-images-automated-cell-detection
 ## Contact
 
 For questions or suggestions, please contact [Sushruthi Panakanti](https://github.com/psushruthi) at [spanakan@iu.edu](spanakan@iu.edu).    
+
 Thank you.
